@@ -297,11 +297,7 @@ img {
   opacity: 1;
 }
 
-/* 手机端不显示视频，使用静态背景图作为回退（遮罩同样更轻） */
-@media (max-width: 768px) {
-  .hero-video { display: none; }
-  .hero { background: linear-gradient(135deg, rgba(0, 102, 204, 0.06), rgba(0, 68, 153, 0.06)), url('../背景图.png') center / cover no-repeat; }
-}
+
 
 /* 背景装饰：动态波纹 */
 .hero::before {
